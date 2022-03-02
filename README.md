@@ -1,0 +1,2 @@
+# MinCuad
+Regresión Lineal simple
