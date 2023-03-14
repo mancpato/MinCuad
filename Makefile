@@ -1,9 +1,9 @@
 
 all: mainmc.c mincuad.o leerarch.o
-	gcc  -O3 mainmc.c mincuad.o leerarch.o -o MinCuad
+	gcc  -O3 mainmc.c mincuad.o leerarch.o -o MinCuad -lm
 
 debug: mainmc.o mincuad.o leerarch.o
-	gcc  -g -D DEBUG mainmc.c mincuad.o leerarch.o -o MinCuad
+	gcc  -g -D DEBUG mainmc.c mincuad.o leerarch.o -o MinCuad -lm
 
 mainmc.o: mainmc.c
 	gcc  -pedantic -Wall -Wextra -g mainmc.c -c 
