@@ -14,7 +14,7 @@ $
 
 Sirva de ejemplo para Programación de Sistemas de la UABCS/DASC.
 
-## Makefile tiene 3 funciones:
+## Makefile tiene 3 funciones principales:
 
  - Para compilación simple solo
 
@@ -27,3 +27,4 @@ Sirva de ejemplo para Programación de Sistemas de la UABCS/DASC.
  - Para limpiar el directorio:
 
     $ make rm
+ - Adicionalmente se pueden compilar los archivos .c por separado. Leer el archivo Makefile para más detalles.
